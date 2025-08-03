@@ -27,3 +27,10 @@ print(10 % 20)
 
 print("exercise")
 print(2 * 3**2 - 1)
+
+print("==")
+a = 17 // (23 % 7)
+b = 34 % a * 5 - 29 % 4 * 3
+print(a)
+print(b)
+print(a * b)
