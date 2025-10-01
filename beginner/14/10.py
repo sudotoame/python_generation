@@ -1,6 +1,9 @@
 num = int(input())
-b = ""
+
+text = ""
+
 while num > 0:
-    remainder = str(num % 2) + b
-    print(remainder, end="")
+    text = str(num % 2) + text
     num //= 2
+
+print(text)
